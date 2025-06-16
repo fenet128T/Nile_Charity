@@ -1,0 +1,25 @@
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Testimonial Cards */
+  .bg-primary-light {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  /* Gallery Images */
+  .card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.03);
+  }
+  
+  /* Newsletter */
+  .bg-dark {
+    background-color: #212529 !important;
+  }
