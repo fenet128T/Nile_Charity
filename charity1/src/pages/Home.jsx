@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
 import HeroCarousel from "../components/HeroCarousel";
 import Hero from "../components/Hero";
@@ -16,7 +16,7 @@ import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
 
 export default function Home() {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   return (
     <>
       <Navbar />
@@ -32,12 +32,13 @@ export default function Home() {
           <div className="row align-items-center">
             <div className="col-md-8">
               <h4 className="mb-0">
-                {t("emergency_alert")}
-               
+                Emergency: Help feed 500 families this month
               </h4>
             </div>
             <div className="col-md-4 text-md-end mt-2 mt-md-0">
-              <button className="btn btn-light btn-lg">{t("donate_now")}</button>
+              <button className="btn btn-light btn-lg">
+                Donate Now
+              </button>
             </div>
           </div>
         </div>
@@ -52,7 +53,7 @@ export default function Home() {
       {/* Initiatives Carousel */}
       <section className="py-5 bg-light">
         <div className="container">
-          <h2 className="text-center mb-5">our_initiatives</h2>
+          <h2 className="text-center mb-5">Our initiatives</h2>
           <Initiatives />
         </div>
       </section>

@@ -10,12 +10,12 @@ import Donate from "./pages/Donate";
 // import SignUp from "./pages/SignUp";
 // import Admin from "./pages/Admin";
  
-// import LanguageSwitcher from "./components/LanguageSwitcher";
 
 export default function App() {
   // const { i18n } = useTranslation();
 
  
+  
   // useEffect(() => {
   //   document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
   // }, [i18n.language]);

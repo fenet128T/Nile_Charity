@@ -198,27 +198,6 @@ a:focus {
   transform: scale(1.1);
 }
 
-/* [dir="rtl"] {
-  direction: rtl;
-  text-align: right;
-}
 
-[dir="rtl"] .text-md-end {
-  text-align: left !important;
-}
-/* Language switcher styles */
-/* .language-switcher {
-  display: flex;
-  gap: 8px;
-}
 
-.language-switcher button {
-  background: #f0f0f0;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-[dir="rtl"] .language-switcher {
-  margin-right: auto; /* Adjust positioning for RTL} */
  

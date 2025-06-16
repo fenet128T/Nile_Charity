@@ -14,21 +14,17 @@ export default function Testimonials() {
       author: "Fatima Abdullah",
       role: "Mother of three",
       image: "../src/assets/test2.jpeg",
-      
     },
   ];
 
   return (
-    <section
-      className="py-5 text-white"
-      style={{ backgroundColor: "#2c3e50" }}
-    >
+    <section className="py-5 text-white" style={{ backgroundColor: "#2c3e50" }}>
       <div className="container">
         <h2 className="text-center mb-5">Stories of Impact</h2>
         <div className="row g-4">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="col-md-6">
-              <div className="card border-0 bg-primary-light h-100">
+              <div className="card border-0 bg-primary-white h-100">
                 <div className="card-body p-4">
                   <blockquote className="mb-4">
                     <p className="lead">"{testimonial.quote}"</p>

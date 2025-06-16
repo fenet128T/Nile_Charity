@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
-import "./Hero"; // Create this CSS file
+import "./Hero";
+// import educationImg from "../src/assets/education.jpg";
+// import waterImg from "../src/assets/water.jpg";
+// import schoolImg from "../src/assets/school.jpg";
 
 export default function HeroCarousel() {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -9,7 +12,7 @@ export default function HeroCarousel() {
   const carouselItems = [
     {
       image: "../src/assets/education.jpg", // Local image path
-    
+      fallbackImage: "https://example.com/education-fallback.jpg",
       title: "Education for Every Child",
       subtitle: "Sponsor a child's education today",
       cta: "Learn More",
@@ -17,7 +20,7 @@ export default function HeroCarousel() {
     },
     {
       image: "../src/assets/water.jpg",
-      
+
       title: "Clean Water Initiative",
       subtitle: "Bringing safe drinking water to communities",
       cta: "Support Now",

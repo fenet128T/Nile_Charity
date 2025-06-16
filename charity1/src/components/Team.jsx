@@ -4,16 +4,19 @@ export default function Team() {
       name: "Ahmed Hassan",
       role: "Founder & CEO",
       bio: "Environmental scientist with 15 years experience in Nile conservation.",
+      img: "../src/assets/alimor1.jpg",
     },
     {
       name: "Mariam Ali",
       role: "Program Director",
       bio: "Community development specialist focused on women's empowerment.",
+      img: "../src/assets/karolina.jpg",
     },
     {
       name: "Youssef Mahmoud",
       role: "Field Coordinator",
       bio: "Works directly with riverside communities to implement projects.",
+      img: "../src/assets/nappy.jpg",
     },
   ];
 
@@ -26,7 +29,7 @@ export default function Team() {
             <div key={index} className="col-md-4">
               <div className="card h-100 border-0 shadow-sm">
                 <img
-                  src={member.image}
+                  src={member.img}
                   alt={member.name}
                   className="card-img-top"
                   style={{ height: "300px", objectFit: "cover" }}

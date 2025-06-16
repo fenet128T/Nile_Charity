@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from "uuid";
@@ -14,7 +14,7 @@ import HealthService from "./HealthServices";
 import EducationService from "./EducationServices";
 
 const Initiatives = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   const isMobile = window.innerWidth <= 768;
 
@@ -41,8 +41,8 @@ const Initiatives = () => {
         <div className="slide-container">
           <img src={Education} alt="Education Initiative" />
           <div className="slide-text">
-            <h3>{t("initiative_title")}</h3>
-            <p>{t("initiative_description")}</p>
+            <h3>School initiative</h3>
+            <p>providing digitized schools</p>
           </div>
         </div>
       ),
